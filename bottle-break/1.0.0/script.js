@@ -46,7 +46,7 @@ class Game {
 		this.clshop = clickers
     this.gtshop = gadgets
     this.clicked = 0
-    this.break = 6666
+    this.break = 0
 		this.clicker = new Clicker("デフォルト", 1)
 		this.clickers = [
 			new Clicker("デフォルト", 1),
