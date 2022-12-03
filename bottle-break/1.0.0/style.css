@@ -1,0 +1,100 @@
+@font-face {
+	font-family: "dot";
+	src: url("https://cdn.keikun1215.cf/fonts/dot.ttf");
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+* {
+  font-family: "dot";
+	margin: 0;
+}
+header {
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #000;
+}
+a {
+	color: #00f;
+}
+a:visited {
+	color: #00f;
+}
+button {
+	border-radius: 0px;
+	border: 1px solid #000;
+	background: transparent;
+	color: #33ff81;
+}
+button:disabled {
+	color: #aaa;
+}
+.clshelem {
+	margin: 2.5px;
+	padding: 2.5px;
+	border-right: 1px solid #000;
+}
+.gdshelem {
+	margin: 2.5px;
+	padding: 2.5px;
+	border-right: 1px solid #000;
+}
+.used {
+	font-size: 8px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 1px;
+}
+.descr {
+	font-size: 10px;
+	white-space: normal;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+#main {
+	position: relative;
+	height: 256px;
+	width: 256px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+#mainimg {
+	height: 100%;
+  width: 100%;
+}
+#mess {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#cover {
+	position: absolute;
+}
+#content {
+	height: calc(100% - 70px);
+  width: 100%;
+	display: flex;
+}
+#cont {
+	overflow: scroll;
+	height: 100%;
+  width: calc(100% - 256px);
+	padding: 5px;
+}
+#clickers {
+	background: #eee;
+	height: 100px;
+	width: 256px;
+	display: flex;
+	overflow: scroll;
+	white-space: nowrap;
+}
+#gadgets {
+	background: #eee;
+	height: 100px;
+	width: 256px;
+	display: flex;
+	overflow: scroll;
+	white-space: nowrap;
+}
