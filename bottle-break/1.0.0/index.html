@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bottle break</title>
+	<link rel="icon" href="https://cdn.keikun1215.cf/assets/bbreak/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.keikun1215.cf/assets/bbreak/favicon.ico">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<img style="height:100%;width:auto;" src="https://cdn.keikun1215.cf/assets/bbreak/bblogo.webp" />
+	</header>
+	<div id="content">
+    <div id="main">
+      <div id="mess"></div>
+      <img id="cover" />
+      <img id="mainimg"/>
+			<div id="shop">
+				<b>〠Clicker shop〠</b>
+				<div id="clickers"></div>
+				<b>〠Gadget shop〠</b>
+				<div id="gadgets"></div>
+			</div>
+			<button onclick="game.toJSON('', true)">Download data</button>
+			<br>
+			<input type="file" onchange="game.loadFileAsJSON(this.files[0])"></input>
+	  </div>
+		<div id="cont">
+			<h1>Bottle break</h1>
+			暇で作ったゲーム。<br>
+			やってみたけど全然面白くなかった；；<br>
+			<!--<hr style="margin: 10px">
+			<h2>プログラマへ</h2>
+			拡張できるようにクラスを用意してるよ<br>
+			<a href="https://github.com/keikun1215/BottleBreak">ソースコード</a>をみてね！-->
+			<hr style="margin: 10px">
+			<p style="text-align:center">(C) keikun1215</p>
+		</div>
+	</div>
+  <script src="script.js"></script>
+</body>
+
+</html>
